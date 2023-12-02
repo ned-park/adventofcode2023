@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 
-fs.readFile("./input_day1q1", "utf8", (err, data) => {
+fs.readFile("./input_day01q1", "utf8", (err, data) => {
   if (err) {
     console.error(err);
     return;
